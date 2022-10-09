@@ -1,0 +1,14 @@
+### Company item
+GET https://xivapi.com/Item/23919
+
+### Special item
+GET https://xivapi.com/Item/4414
+
+### Get Achievments
+GET https://xivapi.com/search?string=Tank&indexes=Achievement
+
+### Get single Achievment
+GET https://xivapi.com/Achievement/2991
+
+###
+GET https://xivapi.com/Achievement/2886
