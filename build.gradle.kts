@@ -22,7 +22,7 @@ java {
 }
 
 dependencies {
-    api("com.bucket4j", "bucket4j-core", "8.1.0")
+    api("com.bucket4j", "bucket4j-core", "8.2.0")
     api("org.jetbrains", "annotations", "23.0.0")
     api("com.google.code.findbugs", "jsr305", "3.0.2")
     api("org.slf4j", "slf4j-api", "2.0.3")
