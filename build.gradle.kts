@@ -26,7 +26,7 @@ dependencies {
     api("org.jetbrains", "annotations", "23.0.0")
     api("com.google.code.findbugs", "jsr305", "3.0.2")
     api("org.slf4j", "slf4j-api", "2.0.6")
-    api("org.apache.httpcomponents.client5", "httpclient5", "5.1.3")
+    api("org.apache.httpcomponents.client5", "httpclient5", "5.2.1")
     api("com.fasterxml.jackson.core", "jackson-databind", "2.14.2")
 
     testImplementation("org.junit.jupiter", "junit-jupiter-api", "5.9.2")
