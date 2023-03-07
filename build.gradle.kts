@@ -2,7 +2,7 @@ plugins {
     java
     `java-library`
     `maven-publish`
-    id("de.chojo.publishdata") version "1.0.8"
+    id("de.chojo.publishdata") version "1.1.0"
     id("org.cadixdev.licenser") version "0.6.1"
 }
 
