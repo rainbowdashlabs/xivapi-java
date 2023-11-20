@@ -32,8 +32,8 @@ dependencies {
     testImplementation("org.junit.jupiter", "junit-jupiter-api", "5.10.1")
     testRuntimeOnly("org.junit.jupiter", "junit-jupiter-engine", "5.10.1")
     testImplementation("org.mockito", "mockito-core", "5.+")
-    testImplementation("org.apache.logging.log4j", "log4j-core", "2.21.1")
-    testImplementation("org.apache.logging.log4j", "log4j-slf4j2-impl", "2.21.1")
+    testImplementation("org.apache.logging.log4j", "log4j-core", "2.22.0")
+    testImplementation("org.apache.logging.log4j", "log4j-slf4j2-impl", "2.22.0")
 
 }
 
