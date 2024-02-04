@@ -29,8 +29,8 @@ dependencies {
     api("org.apache.httpcomponents.client5", "httpclient5", "5.2.1")
     api("com.fasterxml.jackson.core", "jackson-databind", "2.16.1")
 
-    testImplementation("org.junit.jupiter", "junit-jupiter-api", "5.10.1")
-    testRuntimeOnly("org.junit.jupiter", "junit-jupiter-engine", "5.10.1")
+    testImplementation("org.junit.jupiter", "junit-jupiter-api", "5.10.2")
+    testRuntimeOnly("org.junit.jupiter", "junit-jupiter-engine", "5.10.2")
     testImplementation("org.mockito", "mockito-core", "5.+")
     testImplementation("org.apache.logging.log4j", "log4j-core", "2.22.1")
     testImplementation("org.apache.logging.log4j", "log4j-slf4j2-impl", "2.22.1")
