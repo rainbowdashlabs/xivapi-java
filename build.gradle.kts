@@ -2,7 +2,7 @@ plugins {
     java
     `java-library`
     `maven-publish`
-    id("de.chojo.publishdata") version "1.2.5"
+    id("de.chojo.publishdata") version "2.3.0"
     id("org.cadixdev.licenser") version "0.6.1"
 }
 
@@ -23,14 +23,14 @@ java {
 
 dependencies {
     api("com.bucket4j", "bucket4j-core", "8.7.1")
-    api("org.jetbrains", "annotations", "24.1.0")
+    api("org.jetbrains", "annotations", "26.1.0")
     api("com.google.code.findbugs", "jsr305", "3.0.2")
     api("org.slf4j", "slf4j-api", "2.0.11")
     api("org.apache.httpcomponents.client5", "httpclient5", "5.2.1")
     api("com.fasterxml.jackson.core", "jackson-databind", "2.16.1")
 
-    testImplementation("org.junit.jupiter", "junit-jupiter-api", "5.10.2")
-    testRuntimeOnly("org.junit.jupiter", "junit-jupiter-engine", "5.10.2")
+    testImplementation("org.junit.jupiter", "junit-jupiter-api", "6.1.3")
+    testRuntimeOnly("org.junit.jupiter", "junit-jupiter-engine", "6.1.3")
     testImplementation("org.mockito", "mockito-core", "5.+")
     testImplementation("org.apache.logging.log4j", "log4j-core", "2.22.1")
     testImplementation("org.apache.logging.log4j", "log4j-slf4j2-impl", "2.22.1")
